@@ -1,4 +1,4 @@
-# Deep Learning: Charity Funding Predictor
+# Charity Funding Predictor
 
 ## Background
 
@@ -18,13 +18,11 @@ From Alphabet Soup’s business team, a CSV was provided containing more than 34
 * **ASK_AMT**—Funding amount requested
 * **IS_SUCCESSFUL**—Was the money used effectively
 
-## Instructions
-
 ### Step 1: Preprocess the data
 
 Using Pandas and the Scikit-Learn’s `StandardScaler()`, the dataset was preprocessed in order to compile, train, and evaluate the neural network model later in Step 2
 
-Using the information provided in the starter code, the following instructions were used to complete the preprocessing steps.
+Using the information provided in the starter code, the following steps were used to complete the preprocessing.
 
 1. Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in the dataset:
   * What variable(s) are considered the target(s) for the model?
